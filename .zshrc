@@ -70,7 +70,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-wakatime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -164,5 +164,21 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # Applications shortcuts
 alias vs="code-insiders $@"
 
+# Android Debug Bridge
+export ADBPATH=/home/rafaelfarias/binaries/platform-tools
+# alias adb="$ADBPATH/adb $@"
+
+# Show $PATH in a prettier way
+function showpath {
+    echo $PATH | sed 's/\:/\n/g'
+}
+
 # Add to PATH
 export PATH=$PATH:/home/rafaelfarias/.yarn/bin # yarn
+
+export ANDROID_HOME=$HOME/android
+ export PATH=$ANDROID_HOME/cmdline-tools/tools/bin/:$PATH
+ export PATH=$ANDROID_HOME/emulator/:$PATH
+ export PATH=$ANDROID_HOME/platform-tools/:$PATH
+
+unset zle_bracketed_paste
