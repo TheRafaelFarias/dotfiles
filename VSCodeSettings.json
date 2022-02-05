@@ -1,53 +1,47 @@
 {
-    "json.schemas": [
-        {
-            "name": "vscode-expo-manifest",
-            "url": "file:///home/rafaelfarias/.config/Code%20-%20Insiders/User/globalStorage/bycedric.vscode-expo/manifest-42.0.0.json",
-            "fileMatch": [
-                "app.json",
-                "app.config.json"
-            ]
-        }
-    ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "GitHub Dark Default",
-    "editor.inlineSuggest.enabled": true,
-    "editor.minimap.enabled": false,
+    "github.copilot.inlineSuggest.enable": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false
+    },
     "files.autoSave": "afterDelay",
-    "workbench.productIconTheme": "el-vsc-v1-icons",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.startupEditor": "none",
+    "editor.cursorSurroundingLines": 20,
+    "json.schemas": [
+      {
+        "name": "vscode-expo-manifest",
+        "url": "file:///home/rafaelfarias/.config/Code%20-%20Insiders/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
+        "fileMatch": ["app.json", "app.config.json"]
+      }
+    ],
+    "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.organizeImports": true,
+      "source.fixAll": true,
+      "source.organizeImports": true
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "tabnine.experimentalAutoImports": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.foldingImportsByDefault": true,
-    "editor.linkedEditing": true,
-    "javascript.inlayHints.enumMemberValues.enabled": true,
-    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-    "javascript.inlayHints.parameterNames.enabled": "literals",
-    "javascript.inlayHints.parameterTypes.enabled": true,
-    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-    "typescript.inlayHints.enumMemberValues.enabled": true,
-    "javascript.inlayHints.variableTypes.enabled": true,
-    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-    "typescript.inlayHints.parameterNames.enabled": "literals",
-    "typescript.inlayHints.parameterTypes.enabled": true,
-    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-    "typescript.inlayHints.variableTypes.enabled": true,
-    "editor.cursorSurroundingLines": 15,
-    "workbench.editor.languageDetection": true,
+    "redhat.telemetry.enabled": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Bearded Theme Black & Gold",
+    "workbench.productIconTheme": "fluent-icons",
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
-}
+  }
+  
