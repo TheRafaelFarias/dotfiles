@@ -8,6 +8,9 @@ sudo apt-get install spotify-client
 
 echo "Installing spicetify"
 curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
+export SPICETIFY_INSTALL="/home/rafaelfarias/.spicetify"
+export PATH="$SPICETIFY_INSTALL:$PATH"
+
 cd spicetify-themes
 cp -r * ~/.config/spicetify/Themes
 
