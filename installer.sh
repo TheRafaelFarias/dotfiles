@@ -6,6 +6,7 @@ function install {
     if [ $? -ne 0 ]; then
         echo "Installing: ${1}..."
         sudo apt install -y $1
+        echo "Installed ${1} \n\n"
     else
         echo "Already installed: ${1}"
     fi
@@ -14,9 +15,6 @@ function install {
 echo "Installing softwares"
 install git 
 install zsh 
-install easystroke 
-install wmctrl 
-install xdotool 
 install curl 
 install openjdk-8-jdk
 

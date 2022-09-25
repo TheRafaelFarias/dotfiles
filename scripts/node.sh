@@ -9,7 +9,7 @@ export NVM_DIR="$HOME/.nvm" && (
 
 source ~/.bashrc
 
-nvm install node --lts
+nvm install lts/gallium
 nvm install-latest-npm
 
 npm install -g yarn expo-cli

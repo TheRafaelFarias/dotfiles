@@ -13,30 +13,32 @@ function install {
     code-insiders --install-extension ${name} --force
 }
 
-install albymor.increment-selection               
-install beardedbear.beardedtheme                  
-install bradlc.vscode-tailwindcss                 
-install bycedric.vscode-expo                      
-install dart-code.dart-code               
-install dart-code.flutter                 
-install dbaeumer.vscode-eslint                    
-install elanandkumar.el-vsc-product-icon-theme    
-install esbenp.prettier-vscode                    
-install github.copilot                         
-install github.github-vscode-theme                
-install jpoissonnier.vscode-styled-components     
-install leandro-rodrigues.fluent-ui-vscode        
-install meganrogge.template-string-converter      
-install miguelsolorio.fluent-icons               
-install patbenatar.advanced-new-file              
-install pkief.material-icon-theme                
-install redhat.vscode-xml                        
-install rocketseat.rocketseatreactjs              
-install rocketseat.rocketseatreactnative          
-install sleistner.vscode-fileutils                
+install albymor.increment-selection
+install BeardedBear.beardedtheme
+install Blackboxapp.blackbox
+install bradlc.vscode-tailwindcss
+install byCedric.vscode-expo
+install Dart-Code.dart-code
+install Dart-Code.flutter
+install dbaeumer.vscode-eslint
+install ElAnandKumar.el-vsc-product-icon-theme
+install esbenp.prettier-vscode
+install fisheva.eva-theme
+install GitHub.github-vscode-theme
+install leandro-rodrigues.fluent-ui-vscode
+install meganrogge.template-string-converter
+install miguelsolorio.fluent-icons
+install patbenatar.advanced-new-file
+install PKief.material-icon-theme
+install redhat.vscode-xml
+install ritwickdey.LiveServer
+install rocketseat.rocketseatreactjs
+install rocketseat.rocketseatreactnative
+install sleistner.vscode-fileutils
 install styled-components.vscode-styled-components
-install usernamehw.errorlens                      
-install wakatime.vscode-wakatime                 
+install tal7aouy.theme
+install usernamehw.errorlens
+install WakaTime.vscode-wakatime
 install wix.vscode-import-cost
 
 cp ./VSCodeSettings.json  ~/.config/Code\ -\ Insiders/User/settings.json
