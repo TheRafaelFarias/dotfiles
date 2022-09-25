@@ -1,5 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -72,7 +70,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git wakatime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -166,9 +164,6 @@ alias testing="cd $TESTING_DIR"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-# Use node 16.x
- nvm use lts/gallium >> /dev/null
-
 # Applications shortcuts
 alias vs="code-insiders $@"
 
@@ -186,7 +181,6 @@ function showpath {
 
 # Add to PATH
 export PATH=$PATH:/home/rafaelfarias/.yarn/bin # yarn
-export PATH=$PATH:/home/rafaelfarias/.local/bin # /.local/.bin
 
 export SPICETIFY_INSTALL="/home/rafaelfarias/.spicetify"
 export PATH="$SPICETIFY_INSTALL:$PATH"
@@ -197,6 +191,3 @@ export ANDROID_HOME=$HOME/Android/Sdk
  export PATH=$ANDROID_HOME/platform-tools/:$PATH
 
 unset zle_bracketed_paste
-
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"

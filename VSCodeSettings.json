@@ -1,39 +1,47 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.inlineSuggest.enabled": true,
-  "workbench.startupEditor": "none",
-  "editor.cursorSurroundingLines": 20,
-  "json.schemas": [],
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "redhat.telemetry.enabled": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "Theme Flat",
-  "workbench.productIconTheme": "fluent-icons",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.fontFamily": "'Jetbrains Mono', 'Droid Sans Mono', 'monospace', monospace",
-  "editor.fontLigatures": true,
-  "workbench.sideBar.location": "right",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "window.zoomLevel": 1,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "workbench.iconTheme": "material-icon-theme",
+    "github.copilot.inlineSuggest.enable": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false
+    },
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.startupEditor": "none",
+    "editor.cursorSurroundingLines": 20,
+    "json.schemas": [
+      {
+        "name": "vscode-expo-manifest",
+        "url": "file:///home/rafaelfarias/.config/Code%20-%20Insiders/User/globalStorage/bycedric.vscode-expo/manifest-44.0.0.json",
+        "fileMatch": ["app.json", "app.config.json"]
+      }
+    ],
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Bearded Theme Black & Gold",
+    "workbench.productIconTheme": "fluent-icons",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   }
-}
+  
